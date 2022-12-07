@@ -34,15 +34,15 @@ markup:
   #   contentDir: content.zh
   #   weight: 3
 
-menu:
-  # before: []
-  after:
-    - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
-      weight: 10
-    - name: "Hugo Themes"
-      url: "https://themes.gohugo.io/hugo-book/"
-      weight: 20
+# menu:
+#   # before: []
+#   after:
+#     - name: "Github"
+#       url: "https://github.com/alex-shpak/hugo-book"
+#       weight: 10
+#     - name: "Hugo Themes"
+#       url: "https://themes.gohugo.io/hugo-book/"
+#       weight: 20
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -65,7 +65,7 @@ params:
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection: notes
+  BookSection: 'notes'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
@@ -81,7 +81,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: edit/main/exampleSite
+  BookEditPath: edit/main
 
   # Configure the date format used on the pages
   # - In git information
