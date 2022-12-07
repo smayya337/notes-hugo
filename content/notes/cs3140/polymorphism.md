@@ -3,7 +3,6 @@ title: "Polymorphism"
 weight: 8
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Polymorphism
 
 ## Interfaces

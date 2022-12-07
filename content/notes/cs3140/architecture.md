@@ -3,7 +3,6 @@ title: "Architecture"
 weight: 12
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Architecture
 
 As software grows, it gets harder to maintain. We need to ensure from the outset that this **software entropy** occurs at as slow a rate as possible. **Software architecture** is the high-level part of design, asking questions like the following:

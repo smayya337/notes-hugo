@@ -3,7 +3,6 @@ title: "UML"
 weight: 11
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # UML
 
 The **Unified Modeling Language** (UML) is a standardized way of visualizing software design. It's a good way to communicate your design to other people, and it's also a good way to get a high-level overview of your code.

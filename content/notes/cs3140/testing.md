@@ -3,7 +3,6 @@ title: "Testing"
 weight: 4
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Testing
 
 ## Primary Purposes

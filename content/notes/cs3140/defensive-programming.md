@@ -3,7 +3,6 @@ title: "Defensive Programming"
 weight: 5
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Defensive Programming
 
 **Defensive programming** is programming with the expectation that people will do the wrong thing and cause problems. Your job as a defensive programmer is to be prepared for these bumps in the road and be able to respond effectively. In general:

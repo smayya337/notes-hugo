@@ -3,7 +3,6 @@ title: "Functional Programming"
 weight: 7
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Functional Programming
 
 ## Lambda Functions

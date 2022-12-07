@@ -3,7 +3,6 @@ title: "Integration Testing"
 weight: 9
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Integration Testing
 
 We can't just be satisfied knowing our modules work. We also need to ensure that they work *together*. That's where integration comes in.

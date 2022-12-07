@@ -3,7 +3,6 @@ title: "Software Engineering"
 weight: 1
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Software Engineering
 
 ## Ad Hoc Development

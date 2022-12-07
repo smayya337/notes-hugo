@@ -3,7 +3,6 @@ title: "Software Construction"
 weight: 3
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Software Construction
 
 ## Git

@@ -3,7 +3,6 @@ title: "Clean Code"
 weight: 6
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Clean Code
 
 **Clean code** is not just understandable code. It's code that's easy to work with and update over time.

@@ -3,7 +3,6 @@ title: "Databases"
 weight: 16
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Databases
 
 ## SQL

@@ -3,7 +3,6 @@ title: "Design Patterns"
 weight: 14
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Design Patterns
 
 A **design pattern** is, well... a pattern that you use when designing a system. The trick behind design patterns is that they help you with functional independence and information hiding -- if you know the pattern, you can figure out how the interface works. It's also easier to understand something if it follows a pattern.

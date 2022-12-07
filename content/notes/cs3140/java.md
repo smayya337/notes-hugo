@@ -3,7 +3,6 @@ title: "Java"
 weight: 2
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Java
 
 ## Compiling vs. Interpreting

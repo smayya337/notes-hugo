@@ -3,7 +3,6 @@ title: "Design Principles"
 weight: 10
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Design Principles
 
 So, uh, how exactly do you design good code?
