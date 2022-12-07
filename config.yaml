@@ -2,7 +2,7 @@
 
 baseURL: https://example.com/
 title: Shreyas Mayya's Notes
-# theme: hugo-book
+theme: hugo-book
 
 # Book configuration
 disablePathToLower: true
