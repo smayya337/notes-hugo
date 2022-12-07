@@ -57,9 +57,7 @@ In a perfectly **spherical** geometry, it's expected that all the orbitals have 
 
 The **crystal field stabilization energy** is the energy difference between a spherical field and an octahedral field. It's simple to calculate:
 
-{{< equation "Crystal field stabilization energy:" >}}
 $$\text{CFSE} = (-0.4\Delta_o)(\text{number of } t_{2g} \text{ electrons}) + (0.6\Delta_o)(\text{number of } e_{g} \text{ electrons})$$
-{{< /equation >}}
 
 When comparing two compounds, the compound with the lower CFSE will be more stable.
 
