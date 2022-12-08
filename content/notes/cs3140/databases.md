@@ -169,6 +169,8 @@ import java.sql.*;
 // Your database URL
 String url = "jdbc:sqlite:presidents.sqlite3";
 
+// Make sure we have the database driver
+Class.forName("org.sqlite.JDBC");
 // Connect to the database
 Connection conn = DriverManager.getConnection(url);
 // Keep everything from auto-saving
@@ -178,8 +180,11 @@ conn.setAutoCommit(false);
 String sql = "SELECT * FROM Presidents";
 try {
     Statement stmt = conn.createStatement();
-    // a ResultSet is like an iterator over the results of a query
+    // a ResultSet is like an iterator over the results of a Query
     ResultSet rs = stmt.executeQuery(sql);
+    while (rs.next()) {
+        System.out.println(rs.getString("name"));
+    }
 } catch (SQLException e) {
     throw new RuntimeException();
 }
@@ -227,9 +232,14 @@ public class President {
     @Column(name="name", nullable = false) // nullable = false prevents null values
     private String name;
 
-    @ManyToOne // many-to-one relationship
-    @JoinColumn(name="elections", referencedColumnName="winner") // specifying foreign key column
+    @OneToMany(mappedBy = "winner") // one-to-many relationship
     private List<Election> elections;
+
+    /*
+    For the Election class, you probably connect it to the President class like so:
+    @ManyToOne(name = "winner", referencedColumnName = "id")
+    private President winner;
+    */
     
     // ...you get the idea
 
