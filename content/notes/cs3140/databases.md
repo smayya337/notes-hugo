@@ -237,7 +237,8 @@ public class President {
 
     /*
     For the Election class, you probably connect it to the President class like so:
-    @ManyToOne(name = "winner", referencedColumnName = "id")
+    @ManyToOne
+    @JoinColumn(name = "winner", referencedColumnName = "id")
     private President winner;
     */
     
