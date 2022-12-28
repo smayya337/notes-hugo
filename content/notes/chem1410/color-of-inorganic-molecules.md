@@ -1,12 +1,6 @@
 ---
 title: "Color of Inorganic Molecules"
 weight: 11
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Color of Inorganic Molecules
@@ -29,7 +23,7 @@ We can count out the charge of the complex ion by adding up the charges of its c
 
 The following table shows the charges of common ligands:
 
-{{< figure src="/images/chem1410/chapter-11/ligands.jpg" caption="Common ligands with charges. M represents a metal." width="100%" >}}
+{{< figure src="/images/chem1410/color-of-inorganic-molecules/ligands.jpg" caption="Common ligands with charges. M represents a metal." width="100%" >}}
 
 An important note here: *the charge of the ligand is the charge when both of the atoms in the ligand-metal bond are associated with the ligand.* In other instances, charge is calculated by splitting the bond electrons evenly between the two atoms, but that is not the case here.
 
@@ -39,7 +33,7 @@ Similar to covalent compounds (as seen using VSEPR theory), coordination compoun
 
 The following table provides an overview of these geometries:
 
-{{< figure src="/images/chem1410/chapter-11/geometries.png" caption="Coordination compound geometries." width="100%" >}}
+{{< figure src="/images/chem1410/color-of-inorganic-molecules/geometries.png" caption="Coordination compound geometries." width="100%" >}}
 
 The term **coordination number** is often used rather than VSEPR's "steric number" or "electron domains".
 
@@ -49,7 +43,7 @@ We've seen that atomic orbitals play an important role in chemical bonding. This
 
 Here's an example with an **octahedral** geometry:
 
-{{< figure src="/images/chem1410/chapter-11/octahedral.png" caption="Ligand positions in a coordination compound with octahedral geometry." width="100%" >}}
+{{< figure src="/images/chem1410/color-of-inorganic-molecules/octahedral.png" caption="Ligand positions in a coordination compound with octahedral geometry." width="100%" >}}
 
 Here, all the ligands are located on the axes. What's interesting is that three of the different {{< katex >}}d{{< /katex >}}-orbitals -- the {{< katex >}}d_{xy}{{< /katex >}}, {{< katex >}}d_{yz}{{< /katex >}}, and {{< katex >}}d_{xz}{{< /katex >}} orbitals -- have the orbitals located *between* two axes, while the two others -- {{< katex >}}d_{z^2}{{< /katex >}} and {{< katex >}}d_{x^2-y^2}{{< /katex >}} have the orbitals *along* axes. Since the latter two orbitals (also known as the {{< katex >}}\bm{e_g}{{< /katex >}} **set**) are closer to ligands than the other three (the {{< katex >}}\bm{t_{2g}}{{< /katex >}} **set**), they will experience greater repulsion between their electrons and the ligands' electrons, which makes them higher in energy. In an octahedral geometry, the energy difference between the {{< katex >}}e_g{{< /katex >}} set and the {{< katex >}}t_{2g}{{< /katex >}} set is noted as {{< katex >}}\bm{\Delta_o}{{< /katex >}}.
 
@@ -63,7 +57,7 @@ When comparing two compounds, the compound with the lower CFSE will be more stab
 
 In a **tetrahedral** configuration, the ligands' positions look more like this:
 
-{{< figure src="/images/chem1410/chapter-11/tetrahedral.jpg" caption="Ligand positions in a coordination compound with tetrahedral geometry." width="100%" >}}
+{{< figure src="/images/chem1410/color-of-inorganic-molecules/tetrahedral.jpg" caption="Ligand positions in a coordination compound with tetrahedral geometry." width="100%" >}}
 
 Now, the {{< katex >}}t_{2g}{{< /katex >}} set is higher energy than the {{< katex >}}e_g{{< /katex >}} set. The energy difference here is labeled {{< katex >}}\Delta_t{{< /katex >}}, and the barycenter is {{< katex >}}0.6\Delta_t{{< /katex >}} greater than the energy of the {{< katex >}}e_g{{< /katex >}} set and {{< katex >}}0.4\Delta_t{{< /katex >}} less than the energy of the {{< katex >}}t_{2g}{{< /katex >}} set.
 
@@ -85,7 +79,7 @@ These scenarios are called a **high-spin** and **low-spin** configuration, respe
 
 Here's a helpful visualization:
 
-{{< figure src="/images/chem1410/chapter-11/metalhighlow_spin.png" caption="High vs. low spin with different numbers of electrons." width="100%" >}}
+{{< figure src="/images/chem1410/color-of-inorganic-molecules/metalhighlow_spin.png" caption="High vs. low spin with different numbers of electrons." width="100%" >}}
 
 A high {{< katex >}}\Delta_o{{< /katex >}} causes a low-spin configuration, while a low {{< katex >}}\Delta_o{{< /katex >}} causes a high-spin configuration.
 

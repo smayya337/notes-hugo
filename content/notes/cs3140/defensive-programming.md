@@ -14,7 +14,7 @@ We need to ensure that any **client** using a class in our program is using the 
 
 ## Throwing Exceptions
 
-Throwing exceptions seems like a bad thing, but it's really not A lot of the time, we actually want to throw Exceptions -- for instance, when a precondition or postcondition of our function is violated. The `assertThrows()` method from JUnit 5 comes in quite handy here, since it allows us to check if a function is actually throwing an exception or not. In addition, we also want to make sure that any state changes are rolled back before throwing an exception, so we should write assertions to check for that.
+Throwing exceptions seems like a bad thing, but it's really not. A lot of the time, we actually want to throw Exceptions -- for instance, when a precondition or postcondition of our function is violated. The `assertThrows()` method from JUnit 5 comes in quite handy here, since it allows us to check if a function is actually throwing an exception or not. In addition, we also want to make sure that any state changes are rolled back before throwing an exception, so we should write assertions to check for that.
 
 ## Handling Exceptions
 

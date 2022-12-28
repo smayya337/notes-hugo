@@ -1,12 +1,6 @@
 ---
 title: "Vectors and the Geometry of Space"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 
 # Vectors and the Geometry of Space
