@@ -3,8 +3,6 @@ title: "Partial Derivatives"
 weight: 3
 ---
 
-# Partial Derivatives
-
 ## Functions of Several Variables
 
 A **function of two variables** {{< katex >}}f(x, y){{< /katex >}} is a rule that assigns a unique real number to every pair of real numbers {{< katex >}}(x, y){{< /katex >}} in a set {{< katex >}}D{{< /katex >}}. The set {{< katex >}}D{{< /katex >}} is the **domain** of {{< katex >}}f{{< /katex >}} and the set of values that {{< katex >}}f{{< /katex >}} takes on is its **range**. Expressed mathematically, {{< katex >}}\{f(x, y) | (x, y) \in D\}{{< /katex >}}.

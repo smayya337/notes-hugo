@@ -3,8 +3,6 @@ title: "Testing"
 weight: 4
 ---
 
-# Testing
-
 ## Primary Purposes
 
 How do we know whether our software is ready to release? Well, that depends on two things:

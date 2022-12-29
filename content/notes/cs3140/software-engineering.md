@@ -3,8 +3,6 @@ title: "Software Engineering"
 weight: 1
 ---
 
-# Software Engineering
-
 ## Ad Hoc Development
 
 **Ad hoc development** is making something as a one-off. For example, you might make a script for an assignment, or to quickly automate a task. After the job is done, you don't bother with the code again and move on to something else. Ad hoc development is fine for very small items, but if we want to build at scale we'll run into problems real fast. It's important to be intentional with the design of software as we increase the scale of our projects.

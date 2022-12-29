@@ -3,8 +3,6 @@ title: "UML"
 weight: 11
 ---
 
-# UML
-
 The **Unified Modeling Language** (UML) is a standardized way of visualizing software design. It's a good way to communicate your design to other people, and it's also a good way to get a high-level overview of your code.
 
 The most applicable type of UML diagram for software design is the **class diagram**. A class diagram shows the classes in your program, the relationships between those classes, and the methods and attributes of those classes. We don't generally show constructors or simple getters and setters in class diagrams, and we tend to label aggregation and association relationships with the relevant field name.

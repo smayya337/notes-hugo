@@ -3,8 +3,6 @@ title: "Color of Inorganic Molecules"
 weight: 11
 ---
 
-# Color of Inorganic Molecules
-
 **Coordination** has to do with the bonds between **transition elements**. These elements are special because they have electrons in {{< katex >}}d{{< /katex >}}-orbitals (unlike **main group elements**, which only have electrons in {{< katex >}}s{{< /katex >}}- and {{< katex >}}p{{< /katex >}}-orbitals). It's pretty easy to predict the color and magnetism of coordination compounds because they follow set patterns.
 
 ## The Coordination Sphere

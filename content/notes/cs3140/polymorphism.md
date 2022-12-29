@@ -3,8 +3,6 @@ title: "Polymorphism"
 weight: 8
 ---
 
-# Polymorphism
-
 ## Interfaces
 
 An **interface** is essentially a list of methods to implement. An interface cannot do anything on its own; its only purpose is for classes to implement the methods in the interface. In Java, when you want to use an interface in your class you use the `implements` keyword in your class declaration. This means that your class has to implement the methods listed in the interface -- it will not compile otherwise.

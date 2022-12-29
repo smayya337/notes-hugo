@@ -3,8 +3,6 @@ title: "Software Construction"
 weight: 3
 ---
 
-# Software Construction
-
 ## Git
 
 **Git** is the most popularly used version control software. Version control is used to keep track of changes to a program and foster collaboration.

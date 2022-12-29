@@ -3,8 +3,6 @@ title: "Functional Programming"
 weight: 7
 ---
 
-# Functional Programming
-
 ## Lambda Functions
 
 A **lambda function** is a quick and easy unnamed function defined by some variables. They often take the syntax `(var1, var2) -> {do something here}`.

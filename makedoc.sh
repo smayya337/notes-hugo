@@ -10,6 +10,12 @@ title=$2
 department=$(echo $coursename | cut -d' ' -f1 | tr '[:upper:]' '[:lower:]')
 coursenumber=$(echo $coursename | cut -d' ' -f2)
 
+if [ $(date +%m) -gt 6 ]; then
+    semester="Fall"
+else
+    semester="Spring"
+fi
+
 contentroot="content/notes/$department$coursenumber"
 
 if [ ! -d $contentroot ]; then
@@ -21,14 +27,12 @@ bookCollapseSection: true
 bookToc: false
 ---
 
-# $coursename
-
 ## Contents
 
 |Topic|Link|
 |:--:|:--:|
 EOF
-echo "|$department|$coursenumber|Name TBA|Semester TBA|[here](/notes/$department$coursenumber/)|" >> content/_index.md
+echo "|$department|$coursenumber|$coursename|$semester $(date +%Y)|[here](/notes/$department$coursenumber/)|" >> content/_index.md
 fi
 
 filename=$(echo $title | tr -d '[:punct:]' | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
@@ -40,8 +44,6 @@ cat << EOF > $contentroot/$filename.md
 title: "$title"
 weight: $count
 ---
-
-# $title
 EOF
 
 mkdir -p static/images/$department$coursenumber/$filename

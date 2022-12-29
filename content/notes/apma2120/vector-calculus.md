@@ -3,8 +3,6 @@ title: "Vector Calculus"
 weight: 5
 ---
 
-# Vector Calculus
-
 ## Vector Integrals
 
 ## Line Integrals

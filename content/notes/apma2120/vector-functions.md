@@ -3,8 +3,6 @@ title: "Vector Functions"
 weight: 2
 ---
 
-# Vector Functions
-
 ## Vector Functions and Space Curves
 
 We like to think of functions as operations that take in one or more numbers and output a number. What if the output was a vector instead? This is called a **vector function**.

@@ -3,8 +3,6 @@ title: "JavaFX"
 weight: 13
 ---
 
-# JavaFX
-
 **JavaFX** is a library to build GUIs in Java. Think Swing, but better. GUIs are tricky -- they involve responding to asynchronous and unpredictable user input, which is different from the clean, linear execution of computers.
 
 I'm bored, so here's the event handling paradigm, *The Little Mermaid*-style:

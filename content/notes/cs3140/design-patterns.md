@@ -3,8 +3,6 @@ title: "Design Patterns"
 weight: 14
 ---
 
-# Design Patterns
-
 A **design pattern** is, well... a pattern that you use when designing a system. The trick behind design patterns is that they help you with functional independence and information hiding -- if you know the pattern, you can figure out how the interface works. It's also easier to understand something if it follows a pattern.
 
 Design patterns are useful if they solve a design problem you are trying to solve. If you apply a pattern where it's not needed or apply the wrong pattern, you will probably just dig yourself further into a hole of bad design. However, if you apply the right pattern under the right circumstances, it can go a long way towards making your code cleaner and more understandable.

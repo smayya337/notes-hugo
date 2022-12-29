@@ -3,8 +3,6 @@ title: "XML and JSON"
 weight: 15
 ---
 
-# XML and JSON
-
 Let's look at ways of storing data. We're all familiar with the standard CSV format:
 
 ```csv

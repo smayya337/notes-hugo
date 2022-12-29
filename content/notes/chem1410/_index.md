@@ -4,8 +4,6 @@ bookCollapseSection: true
 bookToc: false
 ---
 
-# CHEM 1410
-
 ## Contents
 
 |Topic|Link|

@@ -3,8 +3,6 @@ title: "Vectors and the Geometry of Space"
 weight: 1
 ---
 
-# Vectors and the Geometry of Space
-
 ## Three-Dimensional Coordinate Systems
 
 The most commonly used 3D coordinate system is the **Euclidean 3-space** {{< katex >}}\mathbb{R}^3{{< /katex >}}. {{< katex >}}\mathbb{R}^3{{< /katex >}} is defined as the set of all points {{< katex >}}(x, y, z){{< /katex >}} where {{< katex >}}x{{< /katex >}}, {{< katex >}}y{{< /katex >}}, and {{< katex >}}z{{< /katex >}} are all real numbers.

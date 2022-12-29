@@ -3,8 +3,6 @@ title: "Clean Code"
 weight: 6
 ---
 
-# Clean Code
-
 **Clean code** is not just understandable code. It's code that's easy to work with and update over time.
 
 Software also falls prey to **entropy**. As a project ages, it gets increasingly more difficult to maintain. We can't completely stop entropy, but we do want to slow it down as much as possible, which is why it's important to keep our code clean.

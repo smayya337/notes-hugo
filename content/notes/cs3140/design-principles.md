@@ -3,8 +3,6 @@ title: "Design Principles"
 weight: 10
 ---
 
-# Design Principles
-
 So, uh, how exactly do you design good code?
 
 ## Modularity

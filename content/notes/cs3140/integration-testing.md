@@ -3,8 +3,6 @@ title: "Integration Testing"
 weight: 9
 ---
 
-# Integration Testing
-
 We can't just be satisfied knowing our modules work. We also need to ensure that they work *together*. That's where integration comes in.
 
 **Integration testing** is a specific type of testing that involves making sure modules work together. We can often do this using JUnit, though there are more tools for this as well.

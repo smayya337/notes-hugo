@@ -3,13 +3,12 @@ title: "Atomic Orbitals: Energy, Shape and Electron Density"
 weight: 2
 ---
 
-# Atomic Orbitals: Energy, Shape and Electron Density
-
 The first few decades of the 20th century sparked a revolution surrounding extremely small objects. **Quantum mechanics** upended the classical models of physics as they applied to particles at the atomic and subatomic level. Instead of being a smooth, continuous distribution, energy was actually **quantized** -- there was a minimum amount of energy greater than zero, and energy increased by set increments.
 
 ## The Bohr Model of the Atom
 
 Under classical principles, it was expected that an electron's angular momentum would cause it to spiral into the nucleus and cause atomic collapse. This clearly was not happening, or else atomic collapse would be happening everywhere all the time. In 1914, Niels Bohr proposed a non-classical model of the atom that used the principle of quantization. His idea was that electrons could only travel in orbits of fixed radius around the atomic nucleus. Each "Bohr orbit" had a radius {{< katex >}}r{{< /katex >}} defined in terms of an integer multiple {{< katex >}}n{{< /katex >}}:
+
 {{< katex display >}}r = \frac{\epsilon_0 h^2}{\pi m_e e^2}n^2{{< /katex >}}
 
 where {{< katex >}}n{{< /katex >}} is a varying integer multiple.
@@ -21,7 +20,7 @@ Constants:
 * {{< katex >}}m_e{{< /katex >}}is the mass of an electron, {{< katex >}}9.109 \times 10^{-31} \text{ kg}{{< /katex >}}
 * {{< katex >}}e{{< /katex >}}is the electric charge of an electron, {{< katex >}}-1.602 \times 10^{19} \text{ C}{{< /katex >}}
 
-Using{{< katex >}}n = 1{{< /katex >}}in this equation gives a radius of {{< katex >}}5.29 \times 10^{-11} \text{ m}{{< /katex >}}, also known as the **Bohr radius**. This is the minimum distance that an electron can be from the nucleus in a hydrogen atom. Since this is greater than zero, we know that an electron cannot actually crash into the nucleus like classical models suggested.
+Using {{< katex >}}n = 1{{< /katex >}} in this equation gives a radius of {{< katex >}}5.29 \times 10^{-11} \text{ m}{{< /katex >}}, also known as the **Bohr radius**. This is the minimum distance that an electron can be from the nucleus in a hydrogen atom. Since this is greater than zero, we know that an electron cannot actually crash into the nucleus like classical models suggested.
 
 Bohr's model was eventually proven wrong -- electrons do not travel in circular orbits -- but he still left a lasting impact on our thinking. Bohr hypothesized that the different orbit radii had energy levels associated with them. The energy levels followed this equation:
 

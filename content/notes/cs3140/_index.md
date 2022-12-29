@@ -4,8 +4,6 @@ bookCollapseSection: true
 bookToc: false
 ---
 
-# CS 3140
-
 ## Contents
 
 |Topic|Link|

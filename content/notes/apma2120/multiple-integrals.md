@@ -3,8 +3,6 @@ title: "Multiple Integrals"
 weight: 4
 ---
 
-# Multiple Integrals
-
 ## Double Integrals over Rectangles
 
 ## Double Integrals over General Regions

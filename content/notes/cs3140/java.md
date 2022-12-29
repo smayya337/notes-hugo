@@ -3,8 +3,6 @@ title: "Java"
 weight: 2
 ---
 
-# Java
-
 ## Compiling vs. Interpreting
 
 A computer does not actually understand high-level code. Another program is required to translate our statements into something that the computer is capable of understanding and executing. There are a couple different approaches to this process.

@@ -3,8 +3,6 @@ title: "Databases"
 weight: 16
 ---
 
-# Databases
-
 ## SQL
 
 Files like CSV, XML, and JSON are all forms of **data persistence**. When your program ends, all its memory is freed up, but what if you want to keep that information? Well, you'll have to put it somewhere. However, files by themselves are not the easiest things to work with. For example, if you want to find all the presidents who were born in February, you'd have to read the entire file and then filter out the ones that don't match. This is where **SQL** comes in. SQL stands for Structured Query Language, and it's a way of storing data in a **database**. It's a language that's used by many different database systems, including MySQL, PostgreSQL, and SQLite.
