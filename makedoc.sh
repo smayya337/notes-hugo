@@ -32,7 +32,7 @@ bookToc: false
 |Topic|Link|
 |:--:|:--:|
 EOF
-echo "|$department|$coursenumber|$coursename|$semester $(date +%Y)|[here](/notes/$department$coursenumber/)|" >> content/_index.md
+echo "|$(echo $department | tr '[:lower:]' '[:upper:]')|$coursenumber|$coursename|$semester $(date +%Y)|[here](/notes/$department$coursenumber/)|" >> content/_index.md
 fi
 
 filename=$(echo $title | tr -d '[:punct:]' | tr ' ' '-' | tr '[:upper:]' '[:lower:]')
