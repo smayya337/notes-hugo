@@ -5,6 +5,7 @@ bookToc: false
 ---
 ## Contents
 
-|Topic|Link|
-|:--:|:--:|
-|Booleans|[here](/notes/cs2130/booleans)
+|  Topic   |              Link              |
+| :------: | :----------------------------: |
+|   SSH    |   [here](/notes/cs2130/ssh)    |
+| Booleans | [here](/notes/cs2130/booleans) |

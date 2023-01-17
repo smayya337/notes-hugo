@@ -51,6 +51,6 @@ Add-Content "$contentroot/$filename.md" "$fileHeader"
 New-Item "static/images/$department$coursenumber/$filename" -ItemType Directory
 New-Item "static/images/$department$coursenumber/$filename/.keep"
 
-Add-Content "$contentroot/_index.md" "|$title|[here](/notes/$department$coursenumber/$filename)"
+Add-Content "$contentroot/_index.md" "|$title|[here](/notes/$department$coursenumber/$filename)|"
 
 Write-Host "Created $contentroot/$filename.md"

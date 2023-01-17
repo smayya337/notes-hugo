@@ -49,6 +49,6 @@ EOF
 mkdir -p static/images/$department$coursenumber/$filename
 touch static/images/$department$coursenumber/$filename/.keep
 
-echo "|$title|[here](/notes/$department$coursenumber/$filename)" >> $contentroot/_index.md
+echo "|$title|[here](/notes/$department$coursenumber/$filename)|" >> $contentroot/_index.md
 
 echo "Created $contentroot/$filename.md"
