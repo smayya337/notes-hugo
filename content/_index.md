@@ -14,3 +14,4 @@ Hi! I'm Shreyas, a computer science major at the University of Virginia. This we
 |APMA|2120|Multivariable Calculus|Fall 2022|[here](/notes/apma2120)|
 |CHEM|1410|Introductory College Chemistry 1|Fall 2022|[here](/notes/chem1410)|
 |CS|3140|Software Development Essentials|Fall 2022|[here](/notes/cs3140)|
+|CS|2130|Computer Systems and Organization|Spring 2023|[here](/notes/cs2130/)|

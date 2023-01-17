@@ -9,7 +9,7 @@ $department = $coursename.split(" ")[0].toLower()
 $coursenumber = $coursename.split(" ")[1]
 
 $month = Get-Date -Format "MM"
-$year = Get-Date -Format "YYYY"
+$year = Get-Date -Format "yyyy"
 
 $semester = "Spring"
 
@@ -17,9 +17,9 @@ If ([int]$month -gt 6) {
     $semester = "Fall"
 }
 
-$contentroot = "content/notes/$department$coursenumber"
+$contentroot = "content\notes\$department$coursenumber"
 
-If (Test-Path -Path $contentroot) {
+If (-Not(Test-Path -Path $contentroot)) {
     New-Item $contentroot -ItemType Directory
     $contentrootIndex = @"
 ---
@@ -28,11 +28,12 @@ bookCollapseSection: true
 bookToc: false
 ---
 ## Contents
+
 |Topic|Link|
 |:--:|:--:|
 "@
-Write-Host $contentrootIndex > "$contentroot/_index.md"
-Write-Host "|$($department.toUpper())|$coursenumber|$coursename|$semester $year|[here](/notes/$department$coursenumber/)|" >> "content/_index.md"
+Add-Content "$contentroot\_index.md" "$contentrootIndex"
+Add-Content "content\_index.md" "|$($department.toUpper())|$coursenumber|$coursename|$semester $year|[here](/notes/$department$coursenumber/)|"
 }
 
 $filename = $($title -replace "[^\w ]","" -replace " ","-").toLower()
@@ -45,11 +46,11 @@ title: "$title"
 weight: $count
 ---
 "@
-Write-Host $fileHeader > "$contentroot/$filename.md"
+Add-Content "$contentroot/$filename.md" "$fileHeader"
 
 New-Item "static/images/$department$coursenumber/$filename" -ItemType Directory
 New-Item "static/images/$department$coursenumber/$filename/.keep"
 
-Write-Host "|$title|[here](/notes/$department$coursenumber/$filename)" >> $contentroot/_index.md
+Add-Content "$contentroot/_index.md" "|$title|[here](/notes/$department$coursenumber/$filename)"
 
 Write-Host "Created $contentroot/$filename.md"
