@@ -15,4 +15,5 @@ Hi! I'm Shreyas, a computer science major at the University of Virginia. This we
 |CHEM|1410|Introductory College Chemistry 1|Fall 2022|[here](/notes/chem1410)|
 |CS|3140|Software Development Essentials|Fall 2022|[here](/notes/cs3140)|
 |CS|2130|Computer Systems and Organization|Spring 2023|[here](/notes/cs2130/)|
-|CS|3240|CS 3240|Spring 2023|[here](/notes/cs3240/)|
+|CS|3240|Advanced Software Development|Spring 2023|[here](/notes/cs3240/)|
+|MATH|3310|Basic Real Analysis|Spring 2023|[here](/notes/math3310/)|
