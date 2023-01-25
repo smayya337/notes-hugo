@@ -55,3 +55,33 @@ There exists a real number {{< katex >}}\alpha \in \mathbb{R}{{< /katex >}} sati
    3. We would like {{< katex >}}s^2 + \frac{2s + 1}{n} < 2{{< /katex >}}. This is possible when {{< katex >}}\frac{1}{n} < \frac{2 - s^2}{2s + 1}{{< /katex >}}, so we'll pick a value of {{< katex >}}n{{< /katex >}} meeting that requirement.
    4. We've found an {{< katex >}}n{{< /katex >}} where {{< katex >}}s^2 + \frac{2s + 1}{n} < 2{{< /katex >}}, which means we've found an {{< katex >}}n{{< /katex >}} where {{< katex >}}(s + \frac{1}{n})^2 < 2{{< /katex >}} since {{< katex >}}(s + \frac{1}{n})^2 < s^2 + \frac{2s + 1}{n}{{< /katex >}}. We know in this case that {{< katex >}}0 < 1 \le s < s + \frac{1}{n}{{< /katex >}}, since {{< katex >}}n \in \mathbb{N}{{< /katex >}}. Since {{< katex >}}(s + \frac{1}{n})^2 < 2{{< /katex >}}, {{< katex >}}s + \frac{1}{n}\in A{{< /katex >}}. However, {{< katex >}}s + \frac{1}{n} > s{{< /katex >}}. Keeping in mind that {{< katex >}}s{{< /katex >}} is defined as the supremum of {{< katex >}}A{{< /katex >}} meaning that no element of {{< katex >}}A{{< /katex >}} is greater than {{< katex >}}s{{< /katex >}}, this is a contradiction. Therefore, {{< katex >}}s^2 \ge 2{{< /katex >}}.
 3. TBD
+
+## Proof: De Morgan's Laws
+
+### Theorem
+
+There are two parts to this theorem. For sets {{< katex >}}A{{< /katex >}} and {{< katex >}}B{{< /katex >}}:
+
+1. {{< katex >}}(A \cap B)^c = A^c \cup B^c{{< /katex >}}
+2. {{< katex >}}(A \cup B)^c = A^c \cap B^c{{< /katex >}}
+
+### Proof
+
+We'll use an example to prove point 1.
+
+1. Let's prove that {{< katex >}}(A \cap B)^c \subseteq A^c \cup B^c{{< /katex >}}.
+   1. Let's say there is some {{< katex >}}x \in (A \cap B)^c{{< /katex >}}.
+   2. If {{< katex >}}x{{< /katex >}} is absent from the intersection of the two sets, then either {{< katex >}}x \notin A{{< /katex >}} or {{< katex >}}x \notin B{{< /katex >}}. We can also write this as {{< katex >}}(x \in A^c) \cup (x \in B^c){{< /katex >}} thanks to the definition of a complement.
+   3. Finally, just reorganize the statement, distributive-property style, by moving {{< katex >}}x{{< /katex >}} outside of the rest of the expression: {{< katex >}}x \in A^c \cup B^c{{< /katex >}}. This works for any {{< katex >}}x \in (A \cap B)^c{{< /katex >}}, meaning that {{< katex >}}(A \cap B)^c \subseteq A^c \cup B^c{{< /katex >}}.
+2. Now let's prove that {{< katex >}}A^c \cup B^c \subseteq (A \cap B)^c{{< /katex >}}.
+   1. Let's say there is some {{< katex >}}x \in A^c \cup B^c{{< /katex >}}.
+   2. If {{< katex >}}x{{< /katex >}} is present in the union of the complement of the two sets, then either {{< katex >}}x \notin A{{< /katex >}} or {{< katex >}}x \notin B{{< /katex >}}.
+   3. Since {{< katex >}}x{{< /katex >}} is missing from one of the two sets, {{< katex >}}x \notin (A \cap B){{< /katex >}}.
+   4. By definition of the complement, {{< katex >}}x \in (A \cap B)^c{{< /katex >}}. This works for any {{< katex >}}x \in A^c \cup B^c{{< /katex >}}, meaning that {{< katex >}}A^c \cup B^c \subseteq (A \cap B)^c{{< /katex >}}.
+3. If both {{< katex >}}(A \cap B)^c \subseteq A^c \cup B^c{{< /katex >}} and {{< katex >}}A^c \cup B^c \subseteq (A \cap B)^c{{< /katex >}}, then {{< katex >}}A^c \cup B^c = (A \cap B)^c{{< /katex >}}, which proves point 1.
+
+For point 2, we can use the fact that {{< katex >}}(A^c)^c = A{{< /katex >}} for any set {{< katex >}}A{{< /katex >}} to our advantage.
+
+1. We have the region defined by {{< katex >}}A^c \cap B^c{{< /katex >}}. If we take the complement, according to the first point of the theorem (which we proved) {{< katex >}}(A^c \cap B^c)^c = (A^c)^c \cup (B^c)^c = A \cup B{{< /katex >}}.
+2. Taking the complement of {{< katex >}}A \cup B{{< /katex >}} obviously gives us {{< katex >}}(A \cup B)^c{{< /katex >}}. However, since {{< katex >}}(A^c \cap B^c)^c = A \cup B{{< /katex >}}, {{< katex >}}((A^c \cap B^c)^c)^c = (A \cup B)^c{{< /katex >}}.
+3. We know that {{< katex >}}((A^c \cap B^c)^c)^c = A^c \cap B^c{{< /katex >}}, so therefore {{< katex >}}A^c \cap B^c = (A \cup B)^c{{< /katex >}}, proving the second point of the theorem.
