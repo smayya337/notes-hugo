@@ -3,6 +3,8 @@ title: "What is Software Engineering?"
 weight: 1
 ---
 
+## Software Engineering
+
 Software engineering is more than just people who write code. It also includes:
 
 * The upper management
