@@ -42,7 +42,7 @@ How do we handle negative numbers? Many binary integers are **unsigned** -- that
 
 The most common system is **two's complement**. What we do is take the first bit and use that to represent the sign -- if it's `1`, it's negative, and if it's `0`, it's positive. However, we can't just use the rest of the bits as-is, because we need to be able to represent the number 0. So, we flip all the bits and add 1 to get the additive inverse. For example, if we have the number `1010`, we can represent it as `0101 + 1 = 0110`. This means that `1010` is the two's complement representation of -6. `1111` is the equivalent of -1 in 4-bit two's complement. This system allows for addition, subtraction, and multiplication to work as expected.
 
-Another system is **biased** integers, where all the binary values are subtracted by a certain amount (equal to {{< katex >}}2^{\text{number of bits}} - 1{{< /katex >}}). For example, if we have a 4-bit biased integer, we subtract 7 from all values. This means that `0111` is the biased representation of 0. This point is used in floating point numbers.
+Another system is **biased** integers, where all the binary values are subtracted by a certain amount (equal to {{< katex >}}2^{\text{number of bits - 1}} - 1{{< /katex >}}). For example, if we have a 4-bit biased integer, we subtract 7 from all values. This means that `0111` is the biased representation of 0. This point is used in floating point numbers.
 
 Finally, there's just using a **sign bit** -- you take the first bit and use that to represent the sign, and the rest of the bits are the value. This is the simplest system, but it's not as efficient as the other two. (Think about it: you have `1000` and `0000`, but they're technically the same thing.)
 
