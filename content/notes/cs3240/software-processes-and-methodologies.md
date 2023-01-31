@@ -28,4 +28,85 @@ weight: 3
 
 ### Software Process Models
 
-* Broadly speaking, process models and thus methodolodies fall on a continuum from **plan-driven** to **agile**
+* Broadly speaking, process models and thus methodologies fall on a continuum from **plan-driven** to **agile**
+* The biggest difference between the two is that an agile process can handle changing requirements better
+* A plan-driven process is useful for more up-front design and planning (e.g. high-security, government approval)
+* A **software development methodology** is an instance of a process model (e.g. Scrum is an agile methodology)
+
+### Choosing a Software Process
+
+* Organizational factors
+  * Co-located or global team? A more global, distributed team will need to be more plan-driven
+  * How is the team structured? Bigger teams will need more structure, so use plan-driven
+  * Directives from leadership?
+* Technology factors
+  * How does the team like to work?
+  * What software can you use to manage communication effectively?
+  * Are you working with hardware at all? You'll need to be more plan-driven since hardware requires specific interfaces, APIs, etc.
+* Domain/sector factors
+  * How quick is the turn-around? Agile is better for quick turn-around
+  * Are there constant updates? If so, you'll need to be more agile
+  * How rapidly is the state-of-the-art changing? Agile is better for rapidly changing state-of-the-art
+* Regulatory factors
+  * Are you building something that requires government or other third-party oversight? If so, plan-driven is better
+  * What documentation/artifacts will you need to provide? If you need to provide a lot of documentation, plan-driven is better
+* Human factors
+  * What is your team make-up?
+  * Are they co-located?
+  * How does everyone get along?
+  * What is the culture like at the company? What about similar companies, or companies located nearby?
+* Bottom line: There is no one good "catch-all" process -- in fact, most companies don't use a stock process; they use a hybrid of different processes customized to their needs
+
+### Choosing a Software Development Methodology
+
+* Agile methodologies
+  * Scrum
+  * Extreme Programming (XP)
+  * Kanban
+* Plan-driven methodologies
+  * Rational Unified Process (RUP)
+  * Personal Software Process (PSP)
+  * Team Software Process (TSP)
+
+### The Waterfall Model
+
+* Do the phases shown before, in order: requirement, design, implmentation, verification, maintenance
+* Need iteration and feedback
+  * Things change (especially requirements)
+  * Change late requires change in earlier results
+  * Often need to do something multiple times, in stages
+* Rigidity
+  * Not realistic to freeze results after each phase
+* Waterfall does not emphasize important issues, like risk factors
+
+### The Spiral Model
+
+* Kind of like waterfall, but you just keep doing things over and over again
+* You stop when the stakeholders are satisfied
+* Is it the answer? Sometimes, yes
+  * Intended for internal development of large systems
+  * Intended for large-scale systems where cost of no risk management is high
+* The spiral model is important historically and as an illustration of many desired features of a process
+
+## Plan-Driven Methodologies
+
+* Works best when developers can determine the requirements in advance, and when the requirements remain relatively stable
+* Focus on repeatability and predictability
+* Defined, standardized, and incrementally improving processes
+* Thorough documentation
+* Architecture defined up-front
+* Detailed plans, workflow, roles, responsibilities, and work product descriptions
+* Ongoing risk management
+* Focus on verification and validation
+* TL; DR:
+  * Good for projects where requirements are less likely to change
+  * As teams grow in size/distribution, plan-driven processes help teams work together effectively
+  * Often better for newer/less-experienced team members
+  * Good for projects with lots of components that have to be integrated
+
+### Rational Unified Process (RUP)
+
+* RUP is interesting because it is a product unto itself
+* Built around the Unified Modeling Language (UML)
+* Business value delivered incrementally in time-boxed cross-discipline iterations
+* In a large, plan-driven environment, teams are often separated and projects are staggered (so one starts as another ends)
