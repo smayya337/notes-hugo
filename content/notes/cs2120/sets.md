@@ -61,4 +61,6 @@ Our formal set operators in set-builder notation are:
 
 We could formally define {{< katex >}}S \cap T{{< /katex >}} in set-builder notation as {{< katex >}}\{x \in \mathbb{U} | x \in S \land x \in T\}{{< /katex >}}.
 
-The **power set** of a set {{< katex >}}A{{< /katex >}} is the set of all possible subsets of {{< katex >}}A{{< /katex >}}. It's denoted {{< katex >}}\mathbb{P}(A){{< /katex >}}. In set-builder notation, it's expressed as {{< katex >}}\{x | x \subseteq A\}{{< /katex >}}.
+The **power set** of a set {{< katex >}}A{{< /katex >}} is the set of all possible subsets of {{< katex >}}A{{< /katex >}}. It's denoted {{< katex >}}\mathbb{P}(A){{< /katex >}}. In set-builder notation, it's expressed as {{< katex >}}\{x | x \subseteq A\}{{< /katex >}}. For example, {{< katex >}}\mathbb{P}(\{1, 2\}) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\}{{< /katex >}}.
+
+Two sets are **disjoint** if their intersection is the empty set. For example, {{< katex >}}\{\text{New York, Washington}\}{{< /katex >}} is disjoint with {{< katex >}}\{3, 4\}{{< /katex >}}. The empty set is disjoint with every set, including itself.
