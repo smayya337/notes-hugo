@@ -10,3 +10,4 @@ bookToc: false
 |   SSH    |   [here](/notes/cs2130/ssh)    |
 | Booleans | [here](/notes/cs2130/booleans) |
 |   Bits   |   [here](/notes/cs2130/bits)   |
+|More Bits|[here](/notes/cs2130/more-bits)|
