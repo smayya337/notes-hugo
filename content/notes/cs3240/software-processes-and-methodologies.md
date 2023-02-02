@@ -110,3 +110,61 @@ weight: 3
 * Built around the Unified Modeling Language (UML)
 * Business value delivered incrementally in time-boxed cross-discipline iterations
 * In a large, plan-driven environment, teams are often separated and projects are staggered (so one starts as another ends)
+
+## Agile Methodologies
+
+* Born in Snowbird, Utah, in February 2001
+* Leaders of the field got together to come up with rules and policies for all Agile methodologies
+* The Agile Manifesto
+  * Individuals and interactions over processes and tools
+  * Working software over comprehensive documentation
+  * Customer collaboration over contract negotiation
+  * Responding to change over following a plan
+* The power is that you can work through the plan with the customer in real-time
+
+### Extreme Programming (XP)
+
+* Probably the first well-known agile process, created by Beck and Cunningham
+* Rarely does a team follow XP strictly
+* XP was built around the same ideas in the manifesto with 12 (13?) core practices
+  * Planning Game -- user stories and stoy points at the beginning of each iteration to plan
+  * Whole Team -- everyone (business, coders, QA, customer, etc.) is involved in the process and should be co-located
+  * Sustainable Pace -- don't overwork the team or else they might inadvertently introduce defects
+  * Small Release -- get customer feedback early and often
+  * Coding Standards -- follow good standards and naming to reduce documentation; code should be self-documenting
+  * Pair Programming -- one person codes while another checks over their shoulder to reduce defects
+  * Test-Driven Development -- write tests before you write code to ensure you're writing the right code
+  * Refactor Mercilessly -- continuously improve your codebase
+  * Collective Code Ownership -- everyone owns the codebase, anyone can update any part of the code when needed
+  * Continuous Integration -- constantly build and test code; main code should always be in a buildable state
+  * Simple Design -- design simply
+  * Metaphor -- have a story that explains the code
+  * Stand-up Meeting -- everyone meets every day to discuss what they did yesterday, what they're doing today, and any blockers
+
+### Scrum
+
+* Originally created by Jeff Sutherland and Ken Schwaber in the 1990s
+* Focuses on:
+  * Simplicity
+  * Any complex project
+  * Constant feedback
+  * Iterations ending with a potentially shippable product
+* Steps:
+  * You have a product backlog
+  * Hold a planning meeting
+  * Pick a few items from the product backlog and put them in the sprint backlog
+  * Work on those tasks
+  * Hold daily meetings
+  * Once the sprint is over (standard sprint length is 2-3 weeks), hold a sprint review meeting
+  * Leadership may have a retrospective meeting to discuss what went well and what didn't
+  * Rinse and repeat
+
+## Polar Chart
+
+* A polar chart is a way to visualize the differences between agile and plan-driven methodologies
+* Axes:
+  * Size -- how many people are you working with? More people means more plan-driven
+  * Dynamism -- how much do the project requirements change? More change means more agile
+  * Culture -- how much does the team value order? More order means more plan-driven
+  * Personnel -- how much experience does the team have? More experience means more agile
+  * Criticality -- how much do you have to lose if you fail? More to lose means more plan-driven
