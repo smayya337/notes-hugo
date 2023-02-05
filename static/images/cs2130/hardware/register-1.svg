@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 80 33" style="max-width:10.4em">
+    <defs>
+        <marker id="TriangleOutM" refY="1.5" refX="0" orient="auto">
+            <path d="m 2,1.5, -2,1.5, 0,-3 z"></path>
+        </marker>
+    </defs>
+    <g transform="translate(0,0)">
+        <text style="text-anchor:middle;text-align:center;" font-size="8px" y="25" x="50">
+            <tspan x="50" y="25">+</tspan>
+        </text>
+        <circle r="7.5" cx="50" cy="22.5" stroke="#000" fill="none"></circle>
+        <text style="text-anchor:middle;text-align:center;" font-size="8px" y="25" x="15">
+            <tspan x="15" y="25">0001</tspan>
+        </text>
+        <path style="marker-end:url(#TriangleOutM);" d="M57.5,22.5,70,22.5,70,5,50,5,50,12.5"
+            stroke="#000" fill="none"></path>
+        <path style="marker-end:url(#TriangleOutM);" d="m25,22.5,15,0" stroke="#000" fill="none"></path>
+        <text style="text-anchor:middle;text-align:center;font-style:italic;" font-size="8px" y="30"
+            x="60">
+            <tspan x="75" y="17.5">x</tspan>
+        </text>
+    </g>
+</svg>
