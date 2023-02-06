@@ -1,0 +1,54 @@
+<svg viewBox="0 0 674 404" xmlns="http://www.w3.org/2000/svg" style="max-width:40em">
+    <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(-8 400)">
+        <text text-anchor="middle" x="453.5" y="-374.3" font-size="16">Read memory at PC into IR</text>
+        <text text-anchor="middle" x="453.5" y="-302.3" font-size="16">Identify the instruction</text>
+        <path fill="none" stroke="black"
+            d="M453.5,-359.697C453.5,-351.983 453.5,-342.712 453.5,-334.112"></path>
+        <polygon fill="black" stroke="black"
+            points="457,-334.104 453.5,-324.104 450,-334.104 457,-334.104"></polygon>
+        <text text-anchor="middle" x="352.5" y="-230.3" font-size="16">Parse out operands</text>
+        <path fill="none" stroke="black"
+            d="M428.793,-287.876C415.831,-278.893 399.772,-267.763 385.735,-258.034"></path>
+        <polygon fill="black" stroke="black"
+            points="387.515,-255.009 377.302,-252.19 383.528,-260.763 387.515,-255.009"></polygon>
+        <text text-anchor="middle" x="554.5" y="-230.3" font-size="16">Compute next PC</text>
+        <path fill="none" stroke="black"
+            d="M478.207,-287.876C491.169,-278.893 507.228,-267.763 521.265,-258.034"></path>
+        <polygon fill="black" stroke="black"
+            points="523.472,-260.763 529.698,-252.19 519.485,-255.009 523.472,-260.763"></polygon>
+        <text text-anchor="middle" x="256.5" y="-158.3" font-size="16">Read program registers</text>
+        <path fill="none" stroke="black"
+            d="M328.77,-215.697C316.563,-206.796 301.515,-195.823 288.316,-186.199"></path>
+        <polygon fill="black" stroke="black"
+            points="290.1,-183.168 279.957,-180.104 285.975,-188.824 290.1,-183.168"></polygon>
+        <text text-anchor="middle" x="400.5" y="-14.3" font-size="16">Write stack pointer to
+            register</text>
+        <path fill="none" stroke="black"
+            d="M358.539,-215.966C362.053,-205.648 366.388,-192.171 369.5,-180 381.409,-133.419 391.098,-78.2187 396.312,-46.0503"></path>
+        <polygon fill="black" stroke="black"
+            points="399.785,-46.4966 397.906,-36.0698 392.873,-45.3928 399.785,-46.4966"></polygon>
+        <text text-anchor="middle" x="554.5" y="-158.3" font-size="16">Send next PC to PC register</text>
+        <path fill="none" stroke="black"
+            d="M554.5,-215.697C554.5,-207.983 554.5,-198.712 554.5,-190.112"></path>
+        <polygon fill="black" stroke="black"
+            points="558,-190.104 554.5,-180.104 551,-190.104 558,-190.104"></polygon>
+        <text text-anchor="middle" x="256.5" y="-86.3" font-size="16">Compute stack pointer</text>
+        <path fill="none" stroke="black"
+            d="M256.5,-143.697C256.5,-135.983 256.5,-126.712 256.5,-118.112"></path>
+        <polygon fill="black" stroke="black"
+            points="260,-118.104 256.5,-108.104 253,-118.104 260,-118.104"></polygon>
+        <text text-anchor="middle" x="139.5" y="-14.3" font-size="16">Write memory at stack address</text>
+        <path fill="none" stroke="black"
+            d="M210.539,-143.787C193.563,-135.35 175.548,-123.585 163.5,-108 149.772,-90.2423 143.883,-65.2283 141.363,-46.239"></path>
+        <polygon fill="black" stroke="black"
+            points="144.824,-45.6856 140.258,-36.1248 137.865,-46.4457 144.824,-45.6856"></polygon>
+        <path fill="none" stroke="black"
+            d="M227.879,-71.8761C212.581,-62.7236 193.557,-51.3417 177.082,-41.485"></path>
+        <polygon fill="black" stroke="black"
+            points="178.61,-38.3205 168.231,-36.1898 175.016,-44.3275 178.61,-38.3205"></polygon>
+        <path fill="none" stroke="black"
+            d="M291.726,-71.8761C311.077,-62.4693 335.273,-50.7077 355.927,-40.6672"></path>
+        <polygon fill="black" stroke="black"
+            points="357.675,-43.7095 365.138,-36.1898 354.614,-37.4139 357.675,-43.7095"></polygon>
+    </g>
+</svg>

@@ -1,6 +1,6 @@
 ---
 title: "Hardware"
-weight: 5
+weight: 4
 ---
 
 Imagine you have a circuit that takes two 4-bit numbers, adds them together, and returns the answer as a 4-bit number. What happens when you add `1111` and `1111`? Well, you'll end up with `11110` -- but since you can only return four bits, you return the four least significant bits, which is `1110`. Does the omission of the leading `1` matter? It depends. If `1111` is a signed integer, then you're fine! `1111` equals -1 and `1110` is -2, so your addition works just as expected. But if you're dealing with unsigned integers... that's 15 + 15 giving you 14. Uh-oh. This is a case of **integer overflow** -- the number has gotten so big that bits are dropping off and you get a different number from what you wanted.
