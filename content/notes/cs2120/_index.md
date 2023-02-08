@@ -8,3 +8,4 @@ bookToc: false
 |Topic|Link|
 |:--:|:--:|
 |Sets|[here](/notes/cs2120/sets)|
+|Propositions and Connectives|[here](/notes/cs2120/propositions-and-connectives)|
