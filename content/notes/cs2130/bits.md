@@ -27,14 +27,14 @@ There's also hexadecimal, which is base-16. Each digit is a nibble. It's much ea
 
 ## Base-2 Logs and Exponents
 
-|Value|Base-10|Abbreviation|Long Form|
-|:--:|:--:|:--:|:--:|
-|{{< katex >}}{{< /katex >}}|1,024|Ki|Kibi|
-|{{< katex >}}{{< /katex >}}|1,048,576|Mi|Mebi|
-|{{< katex >}}{{< /katex >}}|1,073,741,824|Gi|Gibi|
-|{{< katex >}}{{< /katex >}}|1,099,511,627,776|Ti|Tebi|
-|{{< katex >}}{{< /katex >}}|1,125,899,906,842,624|Pi|Pebi|
-|{{< katex >}}{{< /katex >}}|1,152,921,504,606,846,976|Ei|Exbi|
+|            Value            |          Base-10          | Abbreviation | Long Form |
+| :-------------------------: | :-----------------------: | :----------: | :-------: |
+| {{< katex >}}{{< /katex >}} |           1,024           |      Ki      |   Kibi    |
+| {{< katex >}}{{< /katex >}} |         1,048,576         |      Mi      |   Mebi    |
+| {{< katex >}}{{< /katex >}} |       1,073,741,824       |      Gi      |   Gibi    |
+| {{< katex >}}{{< /katex >}} |     1,099,511,627,776     |      Ti      |   Tebi    |
+| {{< katex >}}{{< /katex >}} |   1,125,899,906,842,624   |      Pi      |   Pebi    |
+| {{< katex >}}{{< /katex >}} | 1,152,921,504,606,846,976 |      Ei      |   Exbi    |
 
 ## Negative Numbers
 
