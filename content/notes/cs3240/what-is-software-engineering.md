@@ -19,9 +19,9 @@ The term "software engineering" was first coined in 1968. Back then, programming
 
 It's important to remember that programming, while important, is actually a small part of software engineering. There's much more to it: How do you determine what your clients want? How do you share code with your teammates? How do you determine who has the rights to copy or use your code?
 
-Another definition: a stakeholder is any individual or entity with a vested interest in your software. Understanding what your stakeholders want and building something that meets their requirements is the goal of software engineering.
+Another definition: a **stakeholder** is any individual or entity with a vested interest in your software. Understanding what your stakeholders want and building something that meets their requirements is the goal of software engineering.
 
-## The Six Phases of Software Engineering
+## The Five Phases of Software Engineering
 
 1. **Requirements** -- what do the stakeholders need?
 2. **Design** -- what is the best approach to this problem?
