@@ -5,8 +5,9 @@ bookToc: false
 ---
 ## Contents
 
-|            Topic             |                        Link                        |
-| :--------------------------: | :------------------------------------------------: |
-|             Sets             |             [here](/notes/cs2120/sets)             |
-| Propositions and Connectives | [here](/notes/cs2120/propositions-and-connectives) |
-|Proofs|[here](/notes/cs2120/proofs)|
+|              Topic               |                         Link                          |
+| :------------------------------: | :---------------------------------------------------: |
+|               Sets               |              [here](/notes/cs2120/sets)               |
+|   Propositions and Connectives   |  [here](/notes/cs2120/propositions-and-connectives)   |
+|        Equivalence Proofs        |       [here](/notes/cs2120/equivalence-proofs)        |
+| Predicates and First-Order Logic | [here](/notes/cs2120/predicates-and-firstorder-logic) |

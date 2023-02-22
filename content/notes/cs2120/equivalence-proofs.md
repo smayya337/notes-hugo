@@ -1,5 +1,5 @@
 ---
-title: "Proofs"
+title: "Equivalence Proofs"
 weight: 3
 ---
 
