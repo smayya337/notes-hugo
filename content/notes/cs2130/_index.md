@@ -14,3 +14,4 @@ bookToc: false
 | Designing a Processor | [here](/notes/cs2130/designing-a-processor) |
 |Storing Data|[here](/notes/cs2130/storing-data)|
 |x86-64 Summary|[here](/notes/cs2130/x8664-summary)|
+|Compilation|[here](/notes/cs2130/compilation)|
