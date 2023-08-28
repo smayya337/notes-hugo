@@ -1,0 +1,12 @@
+---
+title: "Defining Social Psychology"
+weight: 1
+---
+
+Aristotle once said, "Man is, by nature, a social animal." This quote lies at the heart of the field of **social psychology**, the study of how people interact with other people. More specifically, it is the scientific study of how thoughts, behaviors, and emotions are influenced by the presence of other people, real or imagined. (That's right -- imagined people can influence your thoughts, behaviors, and emotions! "Think about it -- what will people say?" is a common phrase for a reason!)
+
+Social psychology dates back millenia. In more recent centuries, Sigmund Freud popularized a focus on the individual, triggered by society, as the central driving force in a field known as **psychoanalysis**. On the other hand, B.F. Skinner studied the effects of the environment on behavior in what is known as **behaviorism**. Kurt Lewin took these two approaches and combined them, saying that behavior is a function of a person and their environment. It is Lewin's approach that forms the basis of modern social psychology.
+
+## Construal
+
+**Construal** is one's interpretation, perception, or comprehension of the social situation. **Gestalt psychology** is the theory that the subjective experience of a phenomenon is more important than the objective reality of the phenomenon. It's not as popular now as it used to be, but social psychologists have borrowed the idea that people can interpret the same situation in different ways. On the other hand, **naive realism** is the belief that one's construals reflect the objective reality. Vallone, Ross, and Lepper (1985) studied student responses to news coverage of the Beirut Massacre. The study found that members of a pro-Israeli group found coverage biased against the Israelis, while members of a pro-Arab group found coverage biased against the Arab. Both groups believed that their own construal was the objective reality. Liberman, Samuels, and Ross (2004) had participants play seven rounds of a prisoner's dilemma game. Participants were selected by RAs based on their likelihood to cooperate or compete with one another. Half the participants were told that the game was called the Community Game, while the other half were told it was called the Wall Street Game. They found that the characterization of a person as cooperative or competitive was irrelevant compared to the implication given by the name of the game.
